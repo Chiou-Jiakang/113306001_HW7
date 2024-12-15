@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="113306001_HW7.css">
+  <title>The info</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-panel">
+      <div class="photo-panel"></div>
+      <div class="text-content">
+        <section class="about-me">
+          <h2>About Me</h2>
+          <div>
+            <h1 id = "name">Jerry Chiou</h1>
+            <button id = "edit-btn">edit</button>
+          </div>
+          <p>Hello! I'm a student at National ChengChi University majoring in the Department of Management Information System. I'm passionate about programming and interested in playing the guitar. I have some coding experiences and skills in Python, Html and Css. Some projects finished by myself are shown below. Welcome to pay a visit to my github website!</p>
+        </section>
+        <section class="contact-info">
+          <h3>Contact Info</h3>
+         <p>Email: <a href="mailto:113306001@g.nccu.edu.tw">113306001@g.nccu.edu.tw</a></p>
+          <p>Phone: 0902-415-000</p>
+        </section>
+        <img class="nccu-icon" src="nccu.icon.jpg" alt="NCCU Icon">
+      </div>
+    </div>
+    <div class="right-panel">
+      <section class="education">
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="year">2024 A.D</span>
+            <span class="description">Study In National Chengchi University, the Department of MIS</span>
+          </div>
+          <div class="timeline-item">
+            <span class="year">2021 A.D</span>
+            <span class="description">Started studying at Dazhi Senior High School in Taipei City</span>
+          </div>
+            <div class="timeline-item">
+            <span class="year">2018 A.D</span>
+            <span class="description">Started studying at Dazhi Junior High School in Taipei City</span>
+          </div>
+        </div>
+      </section>
+      <section class="homework-list">
+        <h2>Homework List</h2>
+        <ul>
+            <li>
+              <span class="hw-label">HW2</span>
+              <span class="hw-link">
+                <a href="https://github.com/Chiou-Jiakang/HW2.git" target="_blank">https://github.com/Chiou-Jiakang/HW2.git</a>
+              </span>
+            </li>
+            <li>
+              <span class="hw-label">HW4</span>
+              <span class="hw-link">
+                <a href="https://github.com/Chiou-Jiakang/113306001_HW4.git" target="_blank">https://github.com/Chiou-Jiakang/113306001_HW4.git</a>
+              </span>
+            </li>
+            <li>
+              <span class="hw-label">HW5</span>
+              <span class="hw-link">
+                <a href="https://github.com/Chiou-Jiakang/113306001__HW5.git" target="_blank">https://github.com/Chiou-Jiakang/113306001__HW5.git</a>
+              </span>
+            </li>
+            <li>
+              <span class="hw-label">Lab2</span>
+              <span class="hw-link">
+                <a href="https://github.com/Chiou-Jiakang/113306001___Lab2.git" target="_blank">https://github.com/Chiou-Jiakang/113306001___Lab2.git</a>
+              </span>
+            </li>
+            <li>
+              <span class="hw-label">Lab3</span>
+              <span class="hw-link">
+                <a href="https://github.com/Chiou-Jiakang/113306001__Lab3.git" target="_blank">https://github.com/Chiou-Jiakang/113306001__Lab3.git</a>
+              </span>
+            </li>
+        </ul>
+      </section>
+      <section class="favorite-music">
+        <h2>Favorite Music</h2>
+        <div class ="music-gallery">
+          <a href="https://www.youtube.com/watch?v=HbdvFvBbvnw" target="_blank"><img src="spot1.jpg" alt="Album 1"><p style="text-align: center;">進取勝利</p></a>
+          <a href="https://www.youtube.com/watch?v=L8bdbVFoLX4" target="_blank"><img src="spot1.jpg" alt="Album 2"><p style="text-align: center;">生僻字</p></a>
+          <a href="https://www.youtube.com/watch?v=CSBrZbaN8Ao" target="_blank"><img src="spot1.jpg" alt="Album 3"><p style="text-align: center;">孤勇者</p></a></a>
+          <a href="https://www.youtube.com/watch?v=f_HJMe3OoRY" target="_blank"><img src="spot1.jpg" alt="Album 4"><p style="text-align: center;">APT.</p></a></a>
+        </div>
+        <button id="add-btn">add</button>
+        <div id="add-music-form" style="display: none;">
+          <label>Music Link: <input type="text" id="music-link">
+          </label><br>
+          <label>Music Name: <input type="text" id="music-name">
+          </label><br>
+          <button id="submit-music-btn">Submit</button>
+        </div>
+
+        <p class="music-note">Note: I really love these songs so much, for they are always able to heal my mental wounds when I feel frustrated or anxious! Hope you can love them so!</p>
+      </section>
+    </div>
+  </div>
+  <script src="113306001_HW7.js" charset="utf-8"></script>
+</body>
+</html>
